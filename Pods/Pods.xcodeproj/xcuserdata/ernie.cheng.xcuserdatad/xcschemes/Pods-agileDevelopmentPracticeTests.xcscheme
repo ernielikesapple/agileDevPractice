@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE46B18F715C3106B241DA3C11DED8DA"
-               BuildableName = "Pods_agileDevelopmentPractice.framework"
-               BlueprintName = "Pods-agileDevelopmentPractice"
+               BlueprintIdentifier = "7F0F605A3EFA28623A8574F940A97C21"
+               BuildableName = "Pods_agileDevelopmentPracticeTests.framework"
+               BlueprintName = "Pods-agileDevelopmentPracticeTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE46B18F715C3106B241DA3C11DED8DA"
-            BuildableName = "Pods_agileDevelopmentPractice.framework"
-            BlueprintName = "Pods-agileDevelopmentPractice"
+            BlueprintIdentifier = "7F0F605A3EFA28623A8574F940A97C21"
+            BuildableName = "Pods_agileDevelopmentPracticeTests.framework"
+            BlueprintName = "Pods-agileDevelopmentPracticeTests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

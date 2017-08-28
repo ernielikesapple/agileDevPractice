@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-agileDevelopmentPracticeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Quick.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>7F0F605A3EFA28623A8574F940A97C21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC4915ACAC07E394615A618C168114BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DD7C8BF89FE8053D0A2A2D88BB49CF07</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DF5ADA77C799E8CAC66D6D3C7C131911</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E2C5B9876021A8A76D79F3093C62C8FF</key>
+		<key>EE46B18F715C3106B241DA3C11DED8DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

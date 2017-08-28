@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D1CB7721F540A930032E683 /* agileDevelopmentPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1CB7711F540A930032E683 /* agileDevelopmentPracticeTests.swift */; };
 		6DA107EB1F1DD234007BDEFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA107EA1F1DD234007BDEFD /* AppDelegate.swift */; };
 		6DA107ED1F1DD234007BDEFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA107EC1F1DD234007BDEFD /* ViewController.swift */; };
 		6DA107F01F1DD234007BDEFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA107EE1F1DD234007BDEFD /* Main.storyboard */; };
 		6DA107F21F1DD234007BDEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA107F11F1DD234007BDEFD /* Assets.xcassets */; };
 		6DA107F51F1DD234007BDEFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA107F31F1DD234007BDEFD /* LaunchScreen.storyboard */; };
+		AF5887057130FD946E09EDB6 /* Pods_agileDevelopmentPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7A1BE26365B81C340D265E /* Pods_agileDevelopmentPracticeTests.framework */; };
 		B6937F0007F83619C773EFFA /* Pods_agileDevelopmentPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F246EBE6D9FCA78D8B01F5FB /* Pods_agileDevelopmentPractice.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6D1CB7741F540A930032E683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DA107DF1F1DD234007BDEFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA107E61F1DD234007BDEFD;
+			remoteInfo = agileDevelopmentPractice;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		5A443A189167ECD42673DAD6 /* Pods-agileDevelopmentPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agileDevelopmentPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-agileDevelopmentPractice/Pods-agileDevelopmentPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		6D1CB76F1F540A930032E683 /* agileDevelopmentPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = agileDevelopmentPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1CB7711F540A930032E683 /* agileDevelopmentPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agileDevelopmentPracticeTests.swift; sourceTree = "<group>"; };
+		6D1CB7731F540A930032E683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DA107E71F1DD234007BDEFD /* agileDevelopmentPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agileDevelopmentPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA107EA1F1DD234007BDEFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DA107EC1F1DD234007BDEFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,10 +40,21 @@
 		6DA107F41F1DD234007BDEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DA107F61F1DD234007BDEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76FCBD0754D691B8F44FE6EA /* Pods-agileDevelopmentPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agileDevelopmentPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-agileDevelopmentPractice/Pods-agileDevelopmentPractice.release.xcconfig"; sourceTree = "<group>"; };
+		8B2CE0335AF13FA899A13EBF /* Pods-agileDevelopmentPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agileDevelopmentPracticeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-agileDevelopmentPracticeTests/Pods-agileDevelopmentPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B7A1BE26365B81C340D265E /* Pods_agileDevelopmentPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_agileDevelopmentPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F213A11330EF172D7059B56B /* Pods-agileDevelopmentPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agileDevelopmentPracticeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-agileDevelopmentPracticeTests/Pods-agileDevelopmentPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F246EBE6D9FCA78D8B01F5FB /* Pods_agileDevelopmentPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_agileDevelopmentPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6D1CB76C1F540A930032E683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5887057130FD946E09EDB6 /* Pods_agileDevelopmentPracticeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DA107E41F1DD234007BDEFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,14 +70,25 @@
 			isa = PBXGroup;
 			children = (
 				F246EBE6D9FCA78D8B01F5FB /* Pods_agileDevelopmentPractice.framework */,
+				9B7A1BE26365B81C340D265E /* Pods_agileDevelopmentPracticeTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D1CB7701F540A930032E683 /* agileDevelopmentPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D1CB7711F540A930032E683 /* agileDevelopmentPracticeTests.swift */,
+				6D1CB7731F540A930032E683 /* Info.plist */,
+			);
+			path = agileDevelopmentPracticeTests;
 			sourceTree = "<group>";
 		};
 		6DA107DE1F1DD234007BDEFD = {
 			isa = PBXGroup;
 			children = (
 				6DA107E91F1DD234007BDEFD /* agileDevelopmentPractice */,
+				6D1CB7701F540A930032E683 /* agileDevelopmentPracticeTests */,
 				6DA107E81F1DD234007BDEFD /* Products */,
 				C22E727E863374DE1027D0DE /* Pods */,
 				6401F3AFB7D06D41876056AA /* Frameworks */,
@@ -62,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				6DA107E71F1DD234007BDEFD /* agileDevelopmentPractice.app */,
+				6D1CB76F1F540A930032E683 /* agileDevelopmentPracticeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +122,8 @@
 			children = (
 				5A443A189167ECD42673DAD6 /* Pods-agileDevelopmentPractice.debug.xcconfig */,
 				76FCBD0754D691B8F44FE6EA /* Pods-agileDevelopmentPractice.release.xcconfig */,
+				F213A11330EF172D7059B56B /* Pods-agileDevelopmentPracticeTests.debug.xcconfig */,
+				8B2CE0335AF13FA899A13EBF /* Pods-agileDevelopmentPracticeTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -91,6 +131,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6D1CB76E1F540A930032E683 /* agileDevelopmentPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D1CB7781F540A930032E683 /* Build configuration list for PBXNativeTarget "agileDevelopmentPracticeTests" */;
+			buildPhases = (
+				3F612ECBEE8169AF62FF7464 /* [CP] Check Pods Manifest.lock */,
+				6D1CB76B1F540A930032E683 /* Sources */,
+				6D1CB76C1F540A930032E683 /* Frameworks */,
+				6D1CB76D1F540A930032E683 /* Resources */,
+				B1FEF85914FAAB32A2919A1B /* [CP] Embed Pods Frameworks */,
+				1CA9FC0F12A9E70F6577040B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D1CB7751F540A930032E683 /* PBXTargetDependency */,
+			);
+			name = agileDevelopmentPracticeTests;
+			productName = agileDevelopmentPracticeTests;
+			productReference = 6D1CB76F1F540A930032E683 /* agileDevelopmentPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6DA107E61F1DD234007BDEFD /* agileDevelopmentPractice */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DA107F91F1DD234007BDEFD /* Build configuration list for PBXNativeTarget "agileDevelopmentPractice" */;
@@ -121,6 +182,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = ernie.cheng;
 				TargetAttributes = {
+					6D1CB76E1F540A930032E683 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6DA107E61F1DD234007BDEFD;
+					};
 					6DA107E61F1DD234007BDEFD = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
@@ -141,11 +207,19 @@
 			projectRoot = "";
 			targets = (
 				6DA107E61F1DD234007BDEFD /* agileDevelopmentPractice */,
+				6D1CB76E1F540A930032E683 /* agileDevelopmentPracticeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6D1CB76D1F540A930032E683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DA107E51F1DD234007BDEFD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,6 +233,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1CA9FC0F12A9E70F6577040B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-agileDevelopmentPracticeTests/Pods-agileDevelopmentPracticeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F612ECBEE8169AF62FF7464 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1FEF85914FAAB32A2919A1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-agileDevelopmentPracticeTests/Pods-agileDevelopmentPracticeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D78F62450631BBDDC6A61DE4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,6 +326,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6D1CB76B1F540A930032E683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1CB7721F540A930032E683 /* agileDevelopmentPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DA107E31F1DD234007BDEFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +344,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D1CB7751F540A930032E683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DA107E61F1DD234007BDEFD /* agileDevelopmentPractice */;
+			targetProxy = 6D1CB7741F540A930032E683 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6DA107EE1F1DD234007BDEFD /* Main.storyboard */ = {
@@ -238,6 +373,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6D1CB7761F540A930032E683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F213A11330EF172D7059B56B /* Pods-agileDevelopmentPracticeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = agileDevelopmentPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perficient.ernie.agileDevelopmentPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/agileDevelopmentPractice.app/agileDevelopmentPractice";
+			};
+			name = Debug;
+		};
+		6D1CB7771F540A930032E683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2CE0335AF13FA899A13EBF /* Pods-agileDevelopmentPracticeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = agileDevelopmentPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perficient.ernie.agileDevelopmentPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/agileDevelopmentPractice.app/agileDevelopmentPractice";
+			};
+			name = Release;
+		};
 		6DA107F71F1DD234007BDEFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -362,6 +525,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6D1CB7781F540A930032E683 /* Build configuration list for PBXNativeTarget "agileDevelopmentPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1CB7761F540A930032E683 /* Debug */,
+				6D1CB7771F540A930032E683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6DA107E21F1DD234007BDEFD /* Build configuration list for PBXProject "agileDevelopmentPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -378,6 +549,7 @@
 				6DA107FB1F1DD234007BDEFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
